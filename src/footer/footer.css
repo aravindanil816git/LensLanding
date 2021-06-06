@@ -1,0 +1,6 @@
+.footer {
+    background: url('../resources/footer_bg.jpg') no-repeat;
+    height: 60vh;
+    box-shadow: 0 0 8px 12px black inset;
+    background-size: contain;
+  }

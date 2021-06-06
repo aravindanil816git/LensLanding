@@ -1,0 +1,29 @@
+.terms-condition-wrapper {
+    color: #fff;
+    display: flex;
+}
+
+.terms-condition {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.terms-condition .title:after{
+    content: '';
+    width: 75px;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin-top: 20px;
+}
+
+.terms-list {
+    text-align: left;
+    font-family: FuturaStdBookLight,helvetica neue,Helvetica,Arial,sans-serif;
+}
+
+.terms-list-item {
+    margin-bottom: 10px;
+}

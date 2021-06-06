@@ -1,0 +1,41 @@
+.hero-container {
+  background: url("../resources/hero.jpg");
+  height: 60vh;
+  background-size: contain;
+}
+
+.hero-wrapper {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.help-cta-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.hero-offer {
+  width: 100%;
+  height: 165px;
+  background: url('../resources/hero_offer.png') no-repeat;
+  background-size: contain;
+}
+
+.hero-description .tagline {
+  font-size: 15pt;
+}
+
+@media(max-width:768px) {
+  .hero-container {
+    background-size: cover;
+    height: 100%;
+  }
+}

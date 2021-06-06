@@ -1,0 +1,33 @@
+
+.features-title {
+  color: #ff3500;
+}
+.features-subtitle {
+  color: #fff;
+}
+  
+.features-subtitle:after{
+    content: '';
+    width: 75px;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.features-wrapper {
+  font-family: FuturaStdBookLight,helvetica neue,Helvetica,Arial,sans-serif;
+}
+
+.feature-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media(max-width: 768px){
+  .feature-items {
+    flex-direction: column;
+    align-items: center;
+  }
+}

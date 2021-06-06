@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "FuturaStdBook";
+  font-weight: 900;
+  src: url(./resources/FuturaStdBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "FuturaStdBookLight";
+  font-weight: 400;
+  src: url(./resources/futurastd-book.otf) format("opentype");
+}
+
+.app {
+  font-family: sans-serif;
+  text-align: center;
+  background: #000;
+  font-family: FuturaStdBook,helvetica neue,Helvetica,Arial,sans-serif;
+}
+
+body {
+  background: #000;
+  margin: 0;
+}
+
+.button-cta {
+  background: #fff;
+  border-radius: 50px;
+  padding: 7px;
+  min-width: 140px;
+  height: 45px;
+  border: none;
+  font-weight: 600;
+}
+
+.button-cta:hover {
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.margin-btm-20 {
+  margin-bottom: 20px;
+}
+
+.cta-btn-container {
+  border: 3px solid white;
+  color: #fff;
+  border-radius: 10px;
+  min-width: 150px;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+.cta-btn-container:hover {
+  color: #000;
+  background: #fff;
+  cursor: pointer;
+}
+
+.padding-40 {
+  padding: 40px;
+}
+
+.padding-20 {
+  padding: 20px 40px;
+}
+
+.bg-gray {
+  background: #191919;
+}
+
+.orange-btn {
+  background: #ff3500;
+  color: #fff;
+}
+
+.orange-btn:hover {
+  color: #ff3500;
+  background: #fff;
+  cursor: pointer;
+}
+
+.margin-btm-5 {
+  margin-bottom: 5px;
+}
+
+.btn-large {
+  min-width: 175px;
+}
+
+
+
+.title {
+    font-size: 18pt;
+    font-weight: 600;
+}
+
+a {
+  color: #75d2fc;
+}
+
+a:hover {
+  color: #1e84b3;
+}
+

@@ -1,0 +1,17 @@
+.contest-description {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.contest-wrapper {
+  display: flex;
+  background: url("../resources/contest_bg.jpg");
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .contest-wrapper {
+      justify-content: center;
+  }
+}

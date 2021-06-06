@@ -1,0 +1,35 @@
+.help-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.help-tagline-container {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    max-width: 50%;
+    text-align: left;
+}
+
+.help-title:after{
+    content: '';
+    width: 75px;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin-top: 20px;
+}
+
+
+@media(max-width:768px) {
+    .help-wrapper {
+        flex-direction: column;
+    }
+
+    .help-wrapper .help-cta-wrapper {
+        margin-top: 60px;
+        flex-direction: column;
+    }
+}

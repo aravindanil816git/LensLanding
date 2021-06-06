@@ -1,0 +1,20 @@
+
+# ignore node_modules
+node_modules
+
+
+# ignore config files
+.idea
+prepros.cfg
+jest-react.config.js
+terminal.glue
+.settings/*
+.vscode
+terminal.glue
+/components/.idea
+
+# ignore logs
+*.log
+*.eslint.html
+*.log.*
+
